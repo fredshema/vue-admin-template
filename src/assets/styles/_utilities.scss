@@ -1,0 +1,52 @@
+.br-10 {
+  border-radius: 10px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-text {
+  cursor: text;
+}
+.v-align-bottom {
+  vertical-align: text-bottom;
+}
+.has-loading {
+  position: relative;
+
+  .container-fluid,
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+  }
+}
+.w-max-content {
+  width: max-content;
+}
+.mw-max-content {
+  min-width: max-content;
+}
+.w-200 {
+  width: 200px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.w-nowrap {
+  white-space: nowrap;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
